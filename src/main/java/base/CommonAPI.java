@@ -103,10 +103,10 @@ public class CommonAPI {
             }
         }else if (os.equalsIgnoreCase("mac")){
             if (browser.equalsIgnoreCase("chrome")){
-                System.setProperty("webdriver.chrome.driver", currentDir+"\\driver\\mac\\chromedriver");
+                System.setProperty("webdriver.chrome.driver", currentDir+"/driver/mac/chromedriver");
                 driver = new ChromeDriver();
             }else if (browser.equalsIgnoreCase("firefox")){
-                System.setProperty("webdriver.gecko.driver", currentDir+"\\driver\\mac\\geckodriver");
+                System.setProperty("webdriver.gecko.driver", currentDir+"/driver/mac/geckodriver");
                 driver = new FirefoxDriver();
             }
         }else if (os.equalsIgnoreCase("linux")){
@@ -270,13 +270,13 @@ public class CommonAPI {
     }
 
     public void takeScreenshot(String screenshotName){
-        DateFormat df = new SimpleDateFormat("MMddyyyyHHmma");
+        DateFormat df = new SimpleDateFormat("MM.dd.yyyy.HH:mma");
         Date date = new Date();
         df.format(date);
 
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(file, new File(System.getProperty("user.dir")+ "\\screenshots\\"+screenshotName+" "+df.format(date)+".jpeg"));
+            FileUtils.copyFile(file, new File(System.getProperty("user.dir")+ "/screenshots/"+screenshotName+" "+df.format(date)+".jpeg"));
 
             System.out.println("Screenshot captured");
         } catch (Exception e) {
