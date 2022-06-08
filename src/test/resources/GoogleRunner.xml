@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Smoke Test">
+
+    <parameter name="useCloudEnv" value="false"></parameter>
+    <parameter name="envName" value="browserstack"></parameter>
+
+    <parameter name="os" value="mac"></parameter>
+    <parameter name="osVersion" value="11"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="99"></parameter>
+    <parameter name="url" value="https://www.google.com/"></parameter>
+
+
+<!--    <test name="Google Logo Sign">-->
+<!--        <classes>-->
+<!--            <class name="testgoogle.LogoSign"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="About Google">-->
+<!--        <classes>-->
+<!--            <class name="testgoogle.AboutGoogle"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Google Store">
+        <classes>
+            <class name="testgoogle.GoogleStore"></class>
+        </classes>
+    </test>
+
+
+</suite>
+
