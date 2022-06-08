@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Suite Name">
 
-    <parameter name="useCloudEnv" value="false"></parameter>
-    <parameter name="envName" value="browserstack"></parameter>
+<parameter name="useCloudEnv" value="false"></parameter>
+<parameter name="envName" value="browserstack"></parameter>
 
-    <parameter name="os" value="mac"></parameter>
-    <parameter name="osVersion" value="11"></parameter>
-    <parameter name="browserName" value="chrome"></parameter>
-    <parameter name="browserVersion" value="99"></parameter>
-    <parameter name="url" value="https://www.rahulshettyacademy.com/AutomationPractice/"></parameter>
+<parameter name="os" value="mac"></parameter>
+<parameter name="osVersion" value="11"></parameter>
+<parameter name="browserName" value="chrome"></parameter>
+<parameter name="browserVersion" value="99"></parameter>
+<parameter name="url" value="https://www.rahulshettyacademy.com/AutomationPractice/"></parameter>
 
 
-    <test name="Test Name">
-        <classes>
-            <class name=""></class>
-        </classes>
-    </test>
+<test name="Test Name">
+    <classes>
+        <class name=""></class>
+    </classes>
+</test>
 
 
 </suite>
