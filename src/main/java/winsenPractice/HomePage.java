@@ -18,5 +18,6 @@ private WebElement homeButtonElement;
 
     public void clickHomeButton(){
         click(homeButtonElement);
+        System.out.println("test");
     }
 }
