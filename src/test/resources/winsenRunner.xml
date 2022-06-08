@@ -13,9 +13,15 @@
     <parameter name="url" value="https://www.rahulshettyacademy.com/AutomationPractice/"></parameter>
 
 
-    <test name="searchField">
+<!--    <test name="search Field Test">-->
+<!--        <classes>-->
+<!--            <class name="winsenPracticeTest.HomePageTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Sign In Test">
         <classes>
-            <class name="winsenPracticeTest.HomePageTest"></class>
+            <class name="winsenPracticeTest.SignInPageTest"></class>
         </classes>
     </test>
 
