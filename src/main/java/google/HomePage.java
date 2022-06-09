@@ -1,6 +1,7 @@
 package google;
 
 import base.CommonAPI;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -36,12 +37,10 @@ public class HomePage extends CommonAPI {
     public void clickOnGoogleStore(){
         click(googleStore);
     }
-    public void getTextForShopByCategory(){
-        click(shopByCategory);
-        System.out.println(getElementText(shopByCategory));
-        String s = shopByCategory.getText();
-        System.out.println(s);
-
+    public String shopByCategorytext(){
+        return getElementText(shopByCategory);
     }
+
+
 
 }

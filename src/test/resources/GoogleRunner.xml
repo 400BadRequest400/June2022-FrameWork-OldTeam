@@ -25,9 +25,21 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <test name="Google Store">
+<!--    <test name="Google Store">-->
+<!--        <classes>-->
+<!--            <class name="testgoogle.GoogleStore"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Google BrokenLinks">-->
+<!--        <classes>-->
+<!--            <class name="testgoogle.GoogleBrokenLinks"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Google Search">
         <classes>
-            <class name="testgoogle.GoogleStore"></class>
+            <class name="testgoogle.SearchByItemTest"></class>
         </classes>
     </test>
 
