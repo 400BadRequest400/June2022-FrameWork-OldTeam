@@ -9,13 +9,64 @@
     <parameter name="os" value="mac"></parameter>
     <parameter name="osVersion" value="11"></parameter>
     <parameter name="browserName" value="chrome"></parameter>
-    <parameter name="browserVersion" value="99"></parameter>
+    <parameter name="browserVersion" value="101"></parameter>
     <parameter name="url" value="https://www.amazon.com/"></parameter>
 
 
-    <test name="amazon logo">
+    <test name="amazon best seller">
         <classes>
-            <class name="ramdanePackageTest.AmazonHomePageTest"></class>
+<!--            <class name="ramdanePackageTest.AmazonBestSellerTest"></class>-->
+        </classes>
+    </test>
+    <test name="amazon basics">
+        <classes>
+<!--            <class name="ramdanePackageTest.AmazonBasicsTest"></class>-->
+        </classes>
+    </test>
+    <test name="amazon customer service">
+        <classes>
+<!--            <class name="ramdanePackageTest.AmazonCustomerServiceTest"></class>-->
+        </classes>
+    </test>
+<!--    <test name="amazon new releases">-->
+<!--        <classes>-->
+<!--            <class name="ramdanePackageTest.AmazonNewReleasesTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="amazon prime">-->
+<!--        <classes>-->
+<!--            <class name="ramdanePackageTest.AmazonPrimeTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="today's deal">
+        <classes>
+<!--            <class name="ramdanePackageTest.AmazonTodayDealTest"></class>-->
+        </classes>
+    </test>
+    <test name="amazon music">
+        <classes>
+<!--            <class name="ramdanePackageTest.AmazonMusicTest"></class>-->
+        </classes>
+    </test>
+    <test name="amazon books">
+        <classes>
+<!--            <class name="ramdanePackageTest.AmazonBooksTest"></class>-->
+        </classes>
+    </test>
+<!--    <test name="amazon registry">-->
+<!--        <classes>-->
+<!--            <class name="ramdanePackageTest.AmazonRegistryTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="amazon data source search">-->
+<!--        <classes>-->
+<!--            <class name="ramdanePackageTest.SearchTestDataSource"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="amazon  item search">
+        <classes>
+            <class name="ramdanePackageTest.SearchItemTest"></class>
         </classes>
     </test>
 
