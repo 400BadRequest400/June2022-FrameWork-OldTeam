@@ -10,20 +10,14 @@
     <parameter name="osVersion" value="11"></parameter>
     <parameter name="browserName" value="chrome"></parameter>
     <parameter name="browserVersion" value="102"></parameter>
-    <parameter name="url" value="https://www.facebook.com/"></parameter>
+    <parameter name="url" value="https://expired.badssl.com/"></parameter>
 
 
-<!--    <test name="search Field Test">-->
-<!--        <classes>-->
-<!--            <class name="winsenPracticeTest.SignInTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
 
-    <test name="Sign In Test">
+    <test name="SSL Certificate">
         <classes>
-            <class name="winsenPracticeTest.CreateNewAccountTest"></class>
-<!--           <class name="winsenPracticeTest.SignInTest"></class>-->
-<!--            <class name="winsenPracticeTest.ForgotPasswordTest"></class>-->
+            <class name="winsenHandleSSLTest.HandleSSLTest"></class>
+
         </classes>
     </test>
 

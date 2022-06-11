@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ElementsDeMoQAPage">
+
+    <parameter name="useCloudEnv" value="false"></parameter>
+    <parameter name="envName" value="browserstack"></parameter>
+
+    <parameter name="os" value="mac"></parameter>
+    <parameter name="osVersion" value="11"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="102"></parameter>
+    <parameter name="url" value="https://demoqa.com/elements"></parameter>
+
+
+    <test name="DemoQA elements">
+        <classes>
+<!--            <class name="winsenDemoQaTest.TextBoxTest"></class>-->
+<!--            <class name="winsenDemoQaTest.CheckBoxTest"></class>-->
+<!--            <class name="winsenDemoQaTest.RadioButtonTest"></class>-->
+            <class name="winsenDemoQaTest.DoubleClickTest"></class>
+
+        </classes>
+    </test>
+
+
+</suite>

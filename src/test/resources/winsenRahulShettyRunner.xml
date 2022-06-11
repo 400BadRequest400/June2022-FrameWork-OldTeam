@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="practice Automation Main Page">
+    <parameter name="url" value="https://www.rahulshettyacademy.com/AutomationPractice/"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="os" value="mac"></parameter>
+
+    <!--    <test name="RadionButtonstest">-->
+    <!--        <classes>-->
+    <!--            <class name="automationPractice.RadioButtonTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--        <test name="searchSuggestiveDD">-->
+    <!--            <classes>-->
+    <!--                <class name="automationPractice.SuggestiveDropDownInputFieldTest"></class>-->
+    <!--            </classes>-->
+    <!--        </test>-->
+    <!--    <test name="searchDD">-->
+    <!--        <classes>-->
+    <!--            <class name="automationPractice.DropDownExample"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="CheckBoxes">-->
+    <!--        <classes>-->
+    <!--            <class name="automationPractice.CheckBoxExampleTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="windowHandles">-->
+    <!--        <classes>-->
+    <!--            <class name="automationPractice.OpenNewWindowsTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+<!--    <test name="windowHandlesTab">-->
+<!--        <classes>-->
+<!--&lt;!&ndash;            <class name="winsenRahulShettyTest.OpenNewWindowsTest"></class>&ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="RadioButton">
+        <classes>
+            <class name="winsenRahulShettyTest.RadioButtonTest"></class>
+        </classes>
+    </test>
+
+</suite>
